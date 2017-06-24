@@ -1,4 +1,4 @@
 test:
   override:
     - sh ci-android.sh
-    - sh -c "sdkmanager --list"
+    - sh -c "$ANDROID_HOME/tools/bin/sdkmanager --list"
